@@ -1,0 +1,29 @@
+{
+  "name": "sistem-rezervare-inchiriere",
+  "version": "1.0.0",
+  "description": "Sistem multi-companie de rezervari sportive (terenuri, biliard, bowling, karting). Include calendar de disponibilitate pe locatii si aplicatie web pentru clienti si angajati.",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "start": "npm --prefix backend run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Recordbraker/Sistem-rezervare-inchiriere.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Recordbraker/Sistem-rezervare-inchiriere/issues"
+  },
+  "homepage": "https://github.com/Recordbraker/Sistem-rezervare-inchiriere#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

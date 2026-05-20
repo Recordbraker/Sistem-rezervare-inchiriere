@@ -1,9 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@500;700&display=swap");
+
 :root {
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, sans-serif;
+  font-family: "Space Grotesk", "Segoe UI", sans-serif;
   line-height: 1.45;
   font-weight: 400;
-  color: #e2e8f0;
-  background: radial-gradient(circle at top, #0b1120 0%, #020617 45%, #020617 100%);
+  color: #1c2a33;
+  background:
+    radial-gradient(circle at 15% -10%, rgba(31, 122, 140, 0.2), transparent 45%),
+    radial-gradient(circle at 90% 0%, rgba(209, 73, 91, 0.12), transparent 35%),
+    linear-gradient(170deg, #f6f0e8 0%, #f1e8d8 100%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -12,6 +17,12 @@
 
 * {
   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Syne", "Space Grotesk", sans-serif;
 }
 
 body {

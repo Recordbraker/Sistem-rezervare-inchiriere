@@ -87,6 +87,7 @@
 
 .ghost-btn.warning {
   border-color: rgba(209, 73, 91, 0.45);
+  color: white;
 }
 
 .auth-card {

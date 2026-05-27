@@ -1084,7 +1084,7 @@ function App() {
           </section>
         ) : (
           <section className="panel user-note">
-            <h2>Mele Rezervări</h2>
+            <h2>Rezervările mele</h2>
             <p>
               Esti autentificat ca <strong>user</strong>. Aici sunt afisate doar rezervarile tale active.
             </p>
